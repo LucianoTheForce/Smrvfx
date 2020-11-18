@@ -831,7 +831,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740849375}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e89f658422b6b1442a7d2933418081db, type: 3}
   m_Name: 
@@ -2242,27 +2242,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerIndex: 0
   mirroredMovement: 1
-  verticalMovement: 0
-  horizontalMovement: 0
+  verticalMovement: 1
+  horizontalMovement: 1
   externalRootMotion: 0
   externalHeadRotation: 0
   externalHandRotations: 0
   fingerOrientations: 1
   moveRate: 1
-  smoothFactor: 20
+  smoothFactor: 30
   lateUpdateAvatar: 0
-  offsetNode: {fileID: 1997219557}
-  posRelativeToCamera: {fileID: 0}
+  offsetNode: {fileID: 0}
+  posRelativeToCamera: {fileID: 740849379}
   posRelOverlayColor: 0
   backgroundPlane: {fileID: 0}
   posRelInvertedZ: 0
-  groundedFeet: 0
-  applyMuscleLimits: 0
+  groundedFeet: 1
+  applyMuscleLimits: 1
   flipLeftRight: 0
   horizontalOffset: 0
   verticalOffset: 0
   forwardOffset: 0
-  Pelvis: {fileID: 0}
+  Pelvis: {fileID: 946455880}
   SpineNaval: {fileID: 887386879}
   SpineChest: {fileID: 191909049}
   Neck: {fileID: 84262180}
@@ -2274,13 +2274,13 @@ MonoBehaviour:
   ShoulderRight: {fileID: 194948476}
   ElbowRight: {fileID: 993394780}
   WristRight: {fileID: 1615894200}
-  HipLeft: {fileID: 0}
-  KneeLeft: {fileID: 0}
-  AnkleLeft: {fileID: 0}
-  HipRight: {fileID: 0}
-  KneeRight: {fileID: 0}
-  AnkleRight: {fileID: 0}
-  BodyRoot: {fileID: 0}
+  HipLeft: {fileID: 1158323335}
+  KneeLeft: {fileID: 1905337391}
+  AnkleLeft: {fileID: 395270600}
+  HipRight: {fileID: 1652675807}
+  KneeRight: {fileID: 1272132351}
+  AnkleRight: {fileID: 1228934250}
+  BodyRoot: {fileID: 946455880}
 --- !u!95 &1687321977
 Animator:
   serializedVersion: 3
