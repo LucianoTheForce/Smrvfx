@@ -1154,7 +1154,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &778064509
 MonoBehaviour:
@@ -1195,57 +1195,6 @@ MonoBehaviour:
   m_ExecuteInEditor: 1
   m_Bindings: []
   m_VisualEffect: {fileID: 778064507}
---- !u!1 &816136786
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 816136788}
-  - component: {fileID: 816136787}
-  m_Layer: 0
-  m_Name: AvatarMatcher
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &816136787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816136786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 243b01ef97e8ecb40b0d023858d3aa46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  avatarModel: {fileID: 1687321975}
-  smoothFactor: 10
-  posRelativeToCamera: {fileID: 740849379}
-  mirroredMovement: 1
-  verticalMovement: 1
-  horizontalMovement: 1
-  groundedFeet: 1
-  applyMuscleLimits: 1
---- !u!4 &816136788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816136786}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!115 &820300143
 MonoScript:
   m_ObjectHideFlags: 0
@@ -1418,7 +1367,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!73398921 &963999399
 VFXRenderer:
@@ -1680,7 +1629,7 @@ Transform:
   - {fileID: 567823211}
   - {fileID: 1563007575}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228934249
 GameObject:
@@ -1917,7 +1866,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1452013108
 MonoBehaviour:
@@ -2002,7 +1951,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515571337
 GameObject:
@@ -2192,67 +2141,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1687321978}
   - component: {fileID: 1687321977}
-  - component: {fileID: 1687321976}
+  - component: {fileID: 1687321979}
   m_Layer: 0
-  m_Name: Neo(Clone)
+  m_Name: Neo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1687321976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687321975}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b38f8c0e60334143a1b54003b3a0ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 1
-  verticalMovement: 1
-  horizontalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 30
-  lateUpdateAvatar: 0
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 740849379}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  horizontalOffset: 0
-  verticalOffset: 0
-  forwardOffset: 0
-  Pelvis: {fileID: 946455880}
-  SpineNaval: {fileID: 887386879}
-  SpineChest: {fileID: 191909049}
-  Neck: {fileID: 84262180}
-  ClavicleLeft: {fileID: 1847424795}
-  ShoulderLeft: {fileID: 1515571338}
-  ElbowLeft: {fileID: 2014185034}
-  WristLeft: {fileID: 214722478}
-  ClavicleRight: {fileID: 1720996300}
-  ShoulderRight: {fileID: 194948476}
-  ElbowRight: {fileID: 993394780}
-  WristRight: {fileID: 1615894200}
-  HipLeft: {fileID: 1158323335}
-  KneeLeft: {fileID: 1905337391}
-  AnkleLeft: {fileID: 395270600}
-  HipRight: {fileID: 1652675807}
-  KneeRight: {fileID: 1272132351}
-  AnkleRight: {fileID: 1228934250}
-  BodyRoot: {fileID: 946455880}
 --- !u!95 &1687321977
 Animator:
   serializedVersion: 3
@@ -2279,15 +2175,49 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687321975}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000016292068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7190595}
   - {fileID: 916577654}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687321979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687321975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerIndex: 0
+  mirroredMovement: 0
+  verticalMovement: 1
+  horizontalMovement: 1
+  externalRootMotion: 0
+  externalHeadRotation: 0
+  externalHandRotations: 0
+  fingerOrientations: 0
+  moveRate: 1
+  smoothFactor: 10
+  lateUpdateAvatar: 0
+  offsetNode: {fileID: 0}
+  posRelativeToCamera: {fileID: 0}
+  posRelOverlayColor: 0
+  backgroundPlane: {fileID: 0}
+  posRelInvertedZ: 0
+  groundedFeet: 1
+  applyMuscleLimits: 1
+  flipLeftRight: 0
+  horizontalOffset: 0
+  verticalOffset: 0
+  forwardOffset: 0
 --- !u!1 &1720996299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,7 +2418,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997219557}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2537,7 +2467,7 @@ Transform:
   m_GameObject: {fileID: 1997219557}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2631,7 +2561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deviceStreamingMode: 1
-  deviceIndex: 2
+  deviceIndex: 0
   recordingFile: 
   minDistance: 0.5
   maxDistance: 10
